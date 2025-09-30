@@ -39,7 +39,7 @@ export default function Home() {
       <NumberSec />
       <Continents />
 
-      <div className="p-20 bg-amber-200">
+      {/* <div className="p-20 bg-amber-200">
       <div className="relative p-1 w-fit ">
        <div className="bg-amber-950 absolute w-full h-full block clip z-10"></div>
       <Button className="relative group overflow-hidden ml-1">
@@ -60,7 +60,7 @@ export default function Home() {
       </Button>
       </div>
 
-    </div> 
+    </div>  */}
 
       <Explore />
       <Why />
