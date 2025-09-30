@@ -38,30 +38,6 @@ export default function Home() {
 
       <NumberSec />
       <Continents />
-
-      {/* <div className="p-20 bg-amber-200">
-      <div className="relative p-1 w-fit ">
-       <div className="bg-amber-950 absolute w-full h-full block clip z-10"></div>
-      <Button className="relative group overflow-hidden ml-1">
-
-        <span
-          className="absolute left-6 top-1/2 transform -translate-y-1/2 w-1.5 h-1.5 bg-white
-               transition-all duration-300 ease-in-out
-               group-hover:-translate-x-2 group-hover:opacity-0
-               opacity-100 translate-x-0"
-        ></span>
-        Explore DaMeta1
-        <span
-          className="absolute left-[260px] top-1/2 transform -translate-y-1/2 w-1.5 h-1.5 bg-black
-               opacity-0 translate-x-2
-               group-hover:translate-x-0 group-hover:opacity-100
-               transition-all duration-300 ease-in-out"
-        ></span>
-      </Button>
-      </div>
-
-    </div>  */}
-
       <Explore />
       <Why />
       <HowItWorks />

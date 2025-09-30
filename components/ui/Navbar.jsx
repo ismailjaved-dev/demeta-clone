@@ -17,6 +17,17 @@ import {
 } from "@/components/ui/sheet"
 
 const Navbar = () => {
+
+    const scrollToSection = () => {
+    const element = document.getElementById('blogs');
+    if (element) {
+      element.scrollIntoView({
+        behavior: 'smooth', // Smooth scroll
+        block: 'start',     // Align to the top
+      });
+    }
+  };
+
     return (
         <>
         <div className='hidden xl:flex absolute top-[10px] w-[98%] left-[1%] justify-center items-center flex-col gap-2.5  z-10'>
@@ -43,10 +54,10 @@ const Navbar = () => {
                     </div>
 
                     <NavBtn text={'Our Vision'} url={'/'} />
-                    <NavBtn text={'Blogs'} url={'#blogs'} />
+                    <NavBtn text={'Blogs'} url={'#blogs'} onClick={scrollToSection}/>
                 </div>
                 <div className='w-[205px] hidden xl:flex'>
-                    <Link href='/' className='manrope text-white font-semibold text-[14px] leading-[27px] px-14 py-5 rounded-full border-2 border-[#95cc43] hover:bg-[#2bf568] hover:border-[#2bf568] transition-all duration-300 ease-in-out'>Book A Demo</Link>
+                    <Link href='/meeting' className='manrope text-white font-semibold text-[14px] leading-[27px] px-14 py-5 rounded-full border-2 border-[#95cc43] hover:bg-[#2bf568] hover:border-[#2bf568] transition-all duration-300 ease-in-out'>Book A Demo</Link>
                 </div>
             </div>
         </div>
@@ -79,7 +90,7 @@ const Navbar = () => {
             </div>
             <div className='mt-10'>
 
-            <Link href='asas' className='manrope text-white font-semibold text-[14px] px-14 py-5 rounded-full border-2 border-[#95cc43] hover:bg-[#2bf568] hover:border-[#2bf568] transition-all duration-300 ease-in-out'>Book A Demo</Link>
+            <Link href='/meeting' className='manrope text-white font-semibold text-[14px] px-14 py-5 rounded-full border-2 border-[#95cc43] hover:bg-[#2bf568] hover:border-[#2bf568] transition-all duration-300 ease-in-out'>Book A Demo</Link>
             </div>
 
     </SheetHeader>

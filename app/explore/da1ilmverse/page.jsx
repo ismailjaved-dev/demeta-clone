@@ -3,6 +3,7 @@ import Image from 'next/image'
 import React from 'react'
 import Footer from '@/components/ui/Footer'
 import { FaBusinessTime, FaCentos, FaGamepad, FaTripadvisor } from "react-icons/fa";
+import { Button } from '@/components/ui/button';
 
 const page = () => {
 
@@ -49,6 +50,26 @@ const page = () => {
                 </p>
             </div>
 
+
+            <div className='gradient w-fit rounded-full p-1 mx-auto my-10'>
+        <Button className="relative group overflow-hidden w-[295px] text-[19px] bg-black  z-20  rounded-full">
+
+        <span 
+          className="absolute left-6 top-1/2 transform -translate-y-1/2 w-1.5 h-1.5 bg-white
+               transition-all duration-300 ease-in-out
+               group-hover:-translate-x-2 group-hover:opacity-0
+               opacity-100 translate-x-0"
+        ></span>
+        Explore Da1ilmverse
+        <span
+          className="absolute left-[260px] top-1/2 transform -translate-y-1/2 w-1.5 h-1.5 bg-white
+               opacity-0 translate-x-2
+               group-hover:translate-x-0 group-hover:opacity-100
+               transition-all duration-300 ease-in-out"
+        ></span>
+      </Button>
+      </div>
+
             <div className='grid lg:grid-cols-2 gap-10 px-5 pb-20'>
                   <div className='min-h-[350px] rounded-4xl overflow-hidden relative flex items-center justify-center '>
                     <div className='absolute bg-[#000]/75 w-full h-full z-10 left-0'></div>
@@ -58,6 +79,8 @@ const page = () => {
                           <h3 className='text-[33px] tracking-[2.8px] text-white font-extrabold '>2024- Da1ilmverse MVP launch</h3>
                       </div>
                   </div>
+
+                  
 
 
 <div className='min-h-[350px] rounded-4xl overflow-hidden relative flex items-center justify-center '>
@@ -78,6 +101,8 @@ const page = () => {
                           <h3 className='text-[33px] tracking-[2.8px] text-white font-extrabold '>2026- Da1ilmverse Launch on Meta store</h3>
                       </div>
                   </div>
+
+
 
 
 

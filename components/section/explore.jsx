@@ -54,7 +54,7 @@ const Explore = () => {
                 {data.map((item, index) => {
                     return (
                         <div key={index} data-aos={'fade-up'} className="flex flex-col gap-4 hover:bg-black/70 transition-all duration-150 ease-in-out hover:shadow-2xl shadow-[#37ff148f] p-5">
-                            <div className='h-[300px]  relative'>
+                            <div className='h-[270px]  relative'>
                              <Image src={item.imageUrl} fill  alt=''/>
                             </div>
                            <h5 className='text-[30px]'>{item.title}</h5>
