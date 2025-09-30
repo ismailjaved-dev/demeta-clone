@@ -35,7 +35,7 @@ const Navbar = () => {
                 <div className='w-[205px] hidden xl:flex'>
                 </div>
                 <div className='flex justify-center items-center gap-3 '>
-                    <NavBtn text={'Home'} url={'sdsasda'} defaulBtn={true} />
+                    <NavBtn text={'Home'} url={'/'} defaulBtn={true} />
                     <NavBtn text={'About us'} url={'/'} />
 
                     <div className='px-10 py-2'>

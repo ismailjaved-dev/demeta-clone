@@ -68,7 +68,7 @@ const Footer = () => {
                 </div>
             </div>
 
-            <div className="w-full bg-white py-12"></div>
+          
         </>
     )
 }

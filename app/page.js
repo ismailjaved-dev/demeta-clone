@@ -18,6 +18,7 @@ import Footer from "@/components/ui/Footer";
 import Hero2 from "@/components/section/Hero2.0";
 import ContactBook from "@/components/ui/contactBook";
 import HowItWorks from "@/components/section/howItWorks";
+import AlertBox from "@/components/ui/alertbox";
 
 
 
@@ -26,6 +27,7 @@ export default function Home() {
     <div className="relative ">
       
         <ContactBook />
+        <AlertBox />
       <Hero2 />
       <What />
       <div className="border-[12px] sm:border-[16px] md:border-[18px] border-[#1bd44c] flex justify-center items-center rounded-xl px-2 sm:px-4">
@@ -37,10 +39,10 @@ export default function Home() {
       <NumberSec />
       <Continents />
 
-      {/* <div className="p-20 bg-amber-200">
+      <div className="p-20 bg-amber-200">
       <div className="relative p-1 w-fit ">
-       <div className="bg-amber-950 absolute w-full h-full block clip"></div>
-      <Button className="relative group overflow-hidden">
+       <div className="bg-amber-950 absolute w-full h-full block clip z-10"></div>
+      <Button className="relative group overflow-hidden ml-1">
 
         <span
           className="absolute left-6 top-1/2 transform -translate-y-1/2 w-1.5 h-1.5 bg-white
@@ -58,7 +60,7 @@ export default function Home() {
       </Button>
       </div>
 
-    </div>  */}
+    </div> 
 
       <Explore />
       <Why />
