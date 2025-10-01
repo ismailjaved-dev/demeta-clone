@@ -24,7 +24,7 @@ import AlertBox from "@/components/ui/alertbox";
 
 export default function Home() {
   return (
-    <div className="relative ">
+    <div className="relative overflow-x-hidden">
       
         <ContactBook />
         <AlertBox />
@@ -59,6 +59,9 @@ export default function Home() {
       </div>
 
       <Footer />
+
+
+      
 
 
     </div>

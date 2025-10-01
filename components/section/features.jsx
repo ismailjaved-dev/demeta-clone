@@ -98,7 +98,7 @@ const Features = () => {
                 <p className='text-[26px] sm:text-[33px] font-semibold capitalize tracking-[2.4px] text-white text-center'>Ready to see Ilmversity in action?</p>
             </div>
 
-            <div className='grid grid-cols-2 mt-10 '>
+            <div className='grid sm:grid-cols-2 gap-y-2 mt-10 '>
                 <div className='gradient2 w-fit rounded-[10px] p-1 mx-auto'>
         <Button className="relative group overflow-hidden !text-black w-[295px] bg-white  z-20  rounded-[10px]">
 
