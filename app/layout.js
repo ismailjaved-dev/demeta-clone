@@ -25,6 +25,11 @@ const exo = Exo({
   export default function RootLayout({ children }) {
     return (
       <html lang="en">
+        <head>
+          <title>
+            DaMeta1 | The Future of AI-Powered Immersive Digital World
+          </title>
+        </head>
         <body
           className={`${orbitron.variable} ${manrope.variable} ${exo.variable}  antialiased`}
         >
