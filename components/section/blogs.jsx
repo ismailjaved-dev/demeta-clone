@@ -26,7 +26,7 @@ const Blogs = () => {
 
   return (
     <div className='fluid-container px-5 py-10' id='blogs'>
-      <h2 className="text-[28px] font-light tracking-[6.2px] capitalize text-center ">DaMeta1 Blogs</h2>
+      <h2 className="text-[28px] font-light tracking-[6.2px] capitalize text-center ">DaMeta1 Insights</h2>
            <div className='max-w-[1140px] mx-auto grid grid-cols-1 md:grid-cols-3 gap-5 mt-10'>
              {data.map((item, index)=>{
                 return (

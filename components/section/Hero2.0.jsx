@@ -1,6 +1,7 @@
 import React from 'react'
 import Navbar from '../ui/Navbar'
 import { Button } from '../ui/button'
+import { ArrowDown } from 'lucide-react'
 
 const Hero2 = () => {
   return (
@@ -22,7 +23,7 @@ const Hero2 = () => {
          <h3 className='text-[28px] sm:text-[36px] capitalize font-normal tracking-[3.7px]' >  Enter the future with DaMeta1</h3>
          <h4 className='text-[22px] sm:text-[28px] capitalize font-normal tracking-[6.1px] mb-10   '>redefining how you learn, work, and play</h4>
         
-                  <div className="relative p-1 w-fit rounded overflow-hidden">
+                  {/* <div className="relative p-1 w-fit rounded overflow-hidden">
        <div className="gradient absolute w-full h-full block clip z-10"></div>
       <Button className="relative group overflow-hidden ml-1">
 
@@ -40,6 +41,12 @@ const Hero2 = () => {
                transition-all duration-300 ease-in-out"
         ></span>
       </Button>
+      </div> */}
+      <div className='text-white hover:text-[#39FF14] text-[23px] font-light cursor-pointer flex gap-2 items-center transition-all duration-200 ease-in-out'>
+        Explore DaMeta1 
+        <span>
+          <ArrowDown className='bounce'/>
+        </span>
       </div>
         </div>  
     </div>

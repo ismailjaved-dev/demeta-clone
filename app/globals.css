@@ -232,5 +232,25 @@ background: linear-gradient(180deg,rgba(255, 255, 255, 1) 0%,  rgba(57, 255, 20,
 background: linear-gradient(180deg,rgba(0, 0, 0, 1) 40%,  rgba(57, 255, 20, 1) 100%);
 }
 
-  /* polygon(0px 0px, 0px 72px, 5px 68px, 5px 5px, 296px 5px, 296px 68px, 0px 68px, 0 72px, 300px 72px, 300px 0) */
-  /* polygon(5px 5px, 5px 67px, 15px 62px, 15px 10px, 295px 10px, 295px 62px, 285px 67px, 5px 67px, 300px 67px, 300px 5px) */
+.bounce {
+  animation: bounceAnimation 1500ms ease-in-out  infinite;
+}
+
+@keyframes bounceAnimation {
+  0% {
+    transform: translateY(-10px);
+  }
+  25% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+  75% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-10px);
+  }
+}
+

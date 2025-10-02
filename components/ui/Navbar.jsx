@@ -18,15 +18,7 @@ import {
 
 const Navbar = () => {
 
-    const scrollToSection = () => {
-    const element = document.getElementById('blogs');
-    if (element) {
-      element.scrollIntoView({
-        behavior: 'smooth', // Smooth scroll
-        block: 'start',     // Align to the top
-      });
-    }
-  };
+
 
     return (
         <>
@@ -47,17 +39,17 @@ const Navbar = () => {
                 </div>
                 <div className='flex justify-center items-center gap-3 '>
                     <NavBtn text={'Home'} url={'/'} defaulBtn={true} />
-                    <NavBtn text={'About us'} url={'/'} />
+                    <NavBtn text={'About us'} url={'/#about'}/>
 
                     <div className='px-10 py-2'>
                         <Image alt='logo' src={logo} className='h-[85px] w-auto p-0' />
                     </div>
 
-                    <NavBtn text={'Our Vision'} url={'/'} />
-                    <NavBtn text={'Blogs'} url={'#blogs'} onClick={scrollToSection}/>
+                    <NavBtn text={'Our Vision'} url={'/#roadmap'} />
+                    <NavBtn text={'Blogs'} url={'/#blogs'} />
                 </div>
-                <div className='w-[205px] hidden xl:flex'>
-                    <Link href='/meeting' className='manrope text-white font-semibold text-[14px] leading-[27px] px-14 py-5 rounded-full border-2 border-[#95cc43] hover:bg-[#2bf568] hover:border-[#2bf568] transition-all duration-300 ease-in-out'>Book A Demo</Link>
+                <div className=' hidden xl:flex'>
+                    <Link href='https://dmu.dameta1.com' target="_blank" className='manrope text-white font-semibold text-[14px] leading-[27px] px-6 sm:px-10 py-5 rounded-full border-2 border-[#95cc43] hover:bg-[#2bf568] hover:border-[#2bf568] transition-all duration-300 ease-in-out'>Explore DaMeta1 Utility Token</Link>
                 </div>
             </div>
         </div>
@@ -90,7 +82,7 @@ const Navbar = () => {
             </div>
             <div className='mt-10'>
 
-            <Link href='/meeting' className='manrope text-white font-semibold text-[14px] px-14 py-5 rounded-full border-2 border-[#95cc43] hover:bg-[#2bf568] hover:border-[#2bf568] transition-all duration-300 ease-in-out'>Book A Demo</Link>
+            <Link href='https://dmu.dameta1.com' target="_blank" className='manrope text-white font-semibold text-[14px] px-6 sm:px-10 py-5 rounded-full border-2 border-[#95cc43] hover:bg-[#2bf568] hover:border-[#2bf568] transition-all duration-300 ease-in-out'>Explore DaMeta1 Utility Token</Link>
             </div>
 
     </SheetHeader>

@@ -35,8 +35,8 @@ const Navbar2 = () => {
             <NavBtn2 text={'Our Vision'} url={'/'} />
             <NavBtn2 text={'Blogs'} url={'/ '} />
           </div>
-          <div className='w-[205px] hidden xl:flex'>
-            <Link href='/meeting' className='manrope  font-semibold text-[14px] leading-[27px] px-14 py-5 rounded-full border-2 border-[#95cc43] hover:bg-[#2bf568] hover:border-[#2bf568] transition-all duration-300 ease-in-out'>Book A Demo</Link>
+          <div className=' hidden xl:flex'>
+            <Link href='https://dmu.dameta1.com' target="_blank" className='manrope  font-semibold text-[14px] leading-[27px] px-6 sm:px-10 py-5 rounded-full border-2 border-[#95cc43] hover:bg-[#2bf568] hover:border-[#2bf568] transition-all duration-300 ease-in-out'>Explore DaMeta1 Utility Token</Link>
           </div>
         </div>
       </div>
@@ -68,7 +68,7 @@ const Navbar2 = () => {
             </div>
             <div className='mt-10'>
 
-            <Link href='/meeting' className='manrope text-black font-semibold text-[14px] px-14 py-5 rounded-full border-2 border-[#95cc43] hover:bg-[#2bf568] hover:border-[#2bf568] transition-all duration-300 ease-in-out'>Book A Demo</Link>
+            <Link href='https://dmu.dameta1.com' target="_blank" className='manrope text-black font-semibold text-[14px] px-6 sm:px-10 py-5 rounded-full border-2 border-[#95cc43] hover:bg-[#2bf568] hover:border-[#2bf568] transition-all duration-300 ease-in-out'>Explore DaMeta1 Utility Token</Link>
             </div>
 
     </SheetHeader>

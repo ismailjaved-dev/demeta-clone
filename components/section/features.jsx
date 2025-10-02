@@ -98,8 +98,8 @@ const Features = () => {
                 <p className='text-[26px] sm:text-[33px] font-semibold capitalize tracking-[2.4px] text-white text-center'>Ready to see Ilmversity in action?</p>
             </div>
 
-            <div className='grid sm:grid-cols-2 gap-y-2 mt-10 '>
-                <div className='gradient2 w-fit rounded-[10px] p-1 mx-auto'>
+           
+                <div className='gradient2 w-fit rounded-[10px] p-1 mx-auto mt-10'>
         <Button className="relative group overflow-hidden !text-black w-[295px] bg-white  z-20  rounded-[10px]">
 
         <span 
@@ -116,26 +116,8 @@ const Features = () => {
                transition-all duration-300 ease-in-out"
         ></span>
       </Button>
-      </div>
+  
 
-<div className='gradient2 w-fit rounded-[10px] p-1 mx-auto'>
-        <Button className="relative group overflow-hidden !text-black w-[295px] bg-white  z-20  rounded-[10px]">
-
-        <span 
-          className="absolute left-6 top-1/2 transform -translate-y-1/2 w-1.5 h-1.5 bg-white
-               transition-all duration-300 ease-in-out
-               group-hover:-translate-x-2 group-hover:opacity-0
-               opacity-100 translate-x-0"
-        ></span>
-        Shedule a Demo
-        <span
-          className="absolute left-[260px] top-1/2 transform -translate-y-1/2 w-1.5 h-1.5 bg-black
-               opacity-0 translate-x-2
-               group-hover:translate-x-0 group-hover:opacity-100
-               transition-all duration-300 ease-in-out"
-        ></span>
-      </Button>
-      </div>
 
             </div>
         </div>

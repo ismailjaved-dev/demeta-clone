@@ -41,11 +41,11 @@ const BoardMembers = () => {
             href: "https://www.linkedin.com/in/jasaira/"
         },
         {
-            name: "Marko Häkkinen",
+            name: "Tunku Fauzi Malek",
             role: "Director of Data & Analytics",
-            img: "/boardMembers/img6.jpg",
+            img: "/boardMembers/img6.png",
             desc: "Over 20 years in tech development and BI, Marko specializes in data-driven digital transformation, leveraging advanced analytics to inform DaMeta1's strategic decisions.",
-            href: "https://www.linkedin.com/in/marko-h%C3%A4kkinen-04490989/"
+            href: "https://www.linkedin.com/in/tunku-fauzi-malek-797b392a/  "
         },
         {
             name: "Essa Al Harti ",

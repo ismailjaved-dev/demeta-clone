@@ -21,12 +21,16 @@ const Footer = () => {
 
                     <div className="flex flex-col items-start md:items-center text-left md:text-center">
                         <h1 className="text-zinc-100 text-[24px] md:text-[30px] font-extrabold">VISIT US</h1>
-                        <p className="text-zinc-100 tracking-[1px] text-sm mt-2 text-[17px]">
-                            Dubai Office Office 42, F02 <br /> al khabaisi, Dubai, UAE.
+                        <p className="text-zinc-100 tracking-[1px] text-sm mt-2 text-[16px] exo capitalize">
+                            Office 269, Building R2, Brandium, Ateashir, Istanbul, Turkey.
                         </p>
-                        <p className="text-zinc-100 tracking-[2px] text-sm mt-6">
-                            Our WhatsApp: <br /> +905347436297
+                        <p className="text-zinc-100 tracking-[1px] text-sm mt-2 text-[16px] exo capitalize">
+                            VD-First floor incubator building masdar city,abu dhabi, United Arab Emirates
                         </p>
+                        <p className="text-zinc-100 tracking-[1px] text-sm mt-2 text-[16px] exo capitalize">
+                            1900 Camden Avenue suite 101 san jose, CA 95124 
+                        </p>
+                        
                     </div>
 
                     <div className="flex flex-col items-start lg:items-center gap-5">

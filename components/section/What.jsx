@@ -29,8 +29,8 @@ const What = () => {
 
 
   return (
-    <div className=" what-bg w-full flex justify-center items-center py-[150px] overflow-hidden">
-      <div className="max-w-[1200px] grid xl:grid-cols-2 gap-16 z-1">
+    <div className=" what-bg w-full flex justify-center items-center py-[150px] overflow-hidden" >
+      <div className="max-w-[1200px] grid xl:grid-cols-2 gap-16 z-1" id="about">
         <div className=" flex gap-5 items-start justify-center flex-col" data-aos={'fade-right'}>
           <h1 className="text-4xl tracking-[1.3px] font-medium leading-[45px]">
             What is DaMeta1?

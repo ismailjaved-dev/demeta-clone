@@ -2,6 +2,7 @@
 import React, { useState, useRef } from 'react'
 import { IoMdPlay } from "react-icons/io";
 import Image from 'next/image'
+import { HeroVideoDialog } from '../ui/hero-video-dialog';
 
 const VideoModal = () => {
 
@@ -19,41 +20,18 @@ const VideoModal = () => {
         <h2 className='text-[28px] capitalize font-semibold text-center max-w-[1100px] mx-auto relative z-10'>
           A world with limitless opportunities is waiting for you! Are you ready to take that leap?
         </h2>
+
+
+                <HeroVideoDialog
+          className="relative flex mx-auto max-w-[1140px] max-h-[640px] overflow-hidden my-10"
+          animationStyle="from-center"
+          videoSrc="https://www.youtube.com/embed/9HPg-zh9D4Q?si=NBwOwbVrPbeTUlVs"
+          thumbnailSrc="https://dameta1.com/wp-content/uploads/2024/07/dameta1.png"
+          thumbnailAlt="Dummy Video Thumbnail"
+        />
+     
            
-        <div className='relative z-100 isolate max-w-[1140] max-h-[640px] mx-auto my-10'>
-          {!active && (
-            <>
-              <div className='block w-full h-full absolute z-10'
-               style={{backgroundImage:'url(https://dameta1.com/wp-content/uploads/2024/07/dameta1.png)',
-                backgroundPosition:"center",
-                backgroundSize:"cover"
-               }}
-              ></div>
-              <div className='w-full h-full absolute bg-[#000]/35 z-10 flex justify-center items-center'>
-                <span 
-                  className='border-white border-4 rounded-full flex justify-center items-center h-[100px] w-[100px] cursor-pointer' 
-                  onClick={handlePlayClick}
-                >
-                  <IoMdPlay color="white" size={32}/>
-                </span>
-              </div>
-            </>
-          )}
-          
-          {/* Video element */}
-          <video 
-            ref={videoRef} 
-            className='w-full h-full relative z-0'  
-            muted 
-            loop 
-            controls={active}
-            autoPlay={active}
-          >
-            <source src="/animation/video.mp4" type="video/mp4"/>
-            <source src="/animation/video.mp4" type="video/ogg"/>
-            Your browser does not support the video tag.
-          </video>
-        </div> 
+       
     </div>
   );
 }

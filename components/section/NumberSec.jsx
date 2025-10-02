@@ -26,7 +26,7 @@ const NumberSec = () => {
 
                 <div className="rounded-lg text-center" data-aos={'fade-left'}>
                     <h1 className='text-3xl md:text-4xl text-white tracking-[1px] pt-2 font-normal leading-[45px]'>
-                        500,000
+                        300,000
                     </h1>
                     <h2 className='text-2xl md:text-3xl tracking-[2px] text-[#39fe1f] font-normal leading-[45px]'>
                         Users
@@ -44,7 +44,7 @@ const NumberSec = () => {
 
                 <div className="rounded-lg text-center" data-aos={'fade-left'}>
                     <h1 className='text-3xl md:text-4xl text-white tracking-[1px] pt-2 font-normal leading-[45px]'>
-                        400,000<sup>+</sup>
+                        160,000<sup>+</sup>
                     </h1>
                     <h2 className='text-2xl md:text-3xl tracking-[2px] text-[#39fe1f] font-normal leading-[45px]'>
                         Students

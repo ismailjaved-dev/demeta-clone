@@ -8,6 +8,7 @@ import { ChevronLeft, ChevronRight } from 'lucide-react';
 import Image from 'next/image';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import Link from 'next/link';
 
 
 const Roadmap = () => {
@@ -26,10 +27,12 @@ const Roadmap = () => {
         {
             title: '2023: First Whitepaper',
             img: "/roadmap/img2.jpg",
+            href:"https://dmu.dameta1.com/assets/pdf/whitepaper.pdf"
         },
         {
             title: '2024: Da1ilmverse MVP',
             img: "/roadmap/img3.jpg",
+            href:"https://da1ilmverse.com/"
         },
         {
             title: '2025: AI Integration',
@@ -43,6 +46,7 @@ const Roadmap = () => {
         {
             title: '2027: Dope Continent',
             img: "/roadmap/img6.jpg",
+            href:"https://dameta1.com/dope/"
         },
         {
             title: '2028: Ecosystem Expansion',
@@ -54,7 +58,7 @@ const Roadmap = () => {
           const nextRef = useRef(null);
 
     return (
-        <div className='bg-white px-5 py-8'>
+        <div className='bg-white px-5 py-8' id='roadmap'>
             <div className="bg-[#1CD44C] w-full h-[2.5px] block my-6 sm:my-12 max-w-[1140px] mx-auto"></div>
             <h2 className='text-[36px] sm:text-[48px] tracking-[4.5px] text-center'>The DaMeta1 Roadmap</h2>
             <h2 className='text-[28px] sm:text-[36px] tracking-[4.5px] text-center font-extralight my-3'>Shaping the Digital Future</h2>
@@ -74,7 +78,7 @@ const Roadmap = () => {
                           loop={true}
                           pagination={{clickable:true}}
                           autoplay={{
-                            delay: 3500,
+                            delay: 50000,
                             disableOnInteraction: false,
                           }}
                           navigation={{
@@ -95,8 +99,8 @@ const Roadmap = () => {
                             <div className={`absolute w-full h-full top-0  z-1 ${item.color && ' bg-[#137F108A]'}`}></div>
              <Image src={item.img} alt="" fill className='object-cover z-0' />
              <div className='relative z-10 text-white text-center' data-aos={'fade-up'}>
-                <h2 className='text-[36px] sm:text-[50px] tracking-[5.6px] font-semibold leading-none'>{item.title}</h2>
-                <button className='border-2 border-white poppins py-3 px-6 text-[15px] rounded-[3px] leading-none mt-[30px] cursor-pointer'>Click Here</button>
+                <h2 className='text-[36px] sm:text-[50px] tracking-[5.6px] font-semibold leading-none mb-[40px]'>{item.title}</h2>
+              {item.href &&  <Link href={item.href} target='_blank' className='border-2 border-white poppins py-3 px-6 text-[15px] rounded-[3px] leading-none mt-[30px] cursor-pointer'>Click Here</Link>}
              </div>
         </SwiperSlide>
                     )
