@@ -7,6 +7,7 @@ import 'swiper/css/pagination';
 import { Autoplay, Navigation, Pagination } from 'swiper/modules';
 import { ChevronLeft, ChevronRight } from 'lucide-react';
 import Image from 'next/image'
+import Link from 'next/link';
 
 const Partners = () => {
       const prevRef = useRef(null);
@@ -44,7 +45,9 @@ const Partners = () => {
         </div>
 
            <div className=' h-[200px] w-[110%] relative hidden sm:block'>
+            <Link href={'https://www.forbes.com/sites/kolawolesamueladebayo/2025/06/27/how-ai-could-reshape-global-education---and-what-comes-after/'} target='_blank'>
           <Image src="/partners/forbes.png" fill alt="" className='object-contain'/>
+            </Link>
             
            </div>
         <Swiper
