@@ -1,6 +1,7 @@
 import Image from 'next/image'
 import React from 'react'
 import { Button } from '../ui/button'
+import Link from 'next/link'
 
 const Features = () => {
 
@@ -99,6 +100,7 @@ const Features = () => {
             </div>
 
            
+                    <Link href="https://ilmversity.com/" target="_bank">
                 <div className='gradient2 w-fit rounded-[10px] p-1 mx-auto mt-10'>
         <Button className="relative group overflow-hidden !text-black w-[295px] bg-white  z-20  rounded-[10px]">
 
@@ -116,10 +118,8 @@ const Features = () => {
                transition-all duration-300 ease-in-out"
         ></span>
       </Button>
-  
-
-
             </div>
+                    </Link>
         </div>
     )
 }

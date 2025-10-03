@@ -19,6 +19,7 @@ import Hero2 from "@/components/section/Hero2.0";
 import ContactBook from "@/components/ui/contactBook";
 import HowItWorks from "@/components/section/howItWorks";
 import AlertBox from "@/components/ui/alertbox";
+import Utility from "@/components/section/utility";
 
 
 
@@ -40,6 +41,7 @@ export default function Home() {
       <Continents />
       <Explore />
       <Why />
+      <Utility />
       <HowItWorks />
       <University />
       <Features />

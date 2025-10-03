@@ -71,7 +71,7 @@ const Why = () => {
        <HeroVideoDialog
   className="relative flex dark:hidden mx-auto max-w-[1200px] max-h-[640px] rounded-2xl overflow-hidden sm:my-10 md:my-20"
   animationStyle="from-center"
-  videoSrc="https://www.youtube.com/embed/vWVm_9ewZ_Q?si=-bNrQ7n3QECJrgY-"
+  videoSrc="https://www.youtube.com/embed/vWVm_9ewZ_Q?si=DgMJcm1FuYCfC4te"
   thumbnailSrc="https://dameta1.com/wp-content/uploads/2025/02/bussinessbay.jpg"
   thumbnailAlt="Dummy Video Thumbnail"
 />

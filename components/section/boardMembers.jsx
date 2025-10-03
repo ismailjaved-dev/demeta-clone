@@ -8,7 +8,7 @@ const BoardMembers = () => {
         {
             name: "Waqas Suhail",
             role: "CEO & Co-Founder",
-            img: "/boardMembers/img1.jpg",
+            img: "/boardMembers/img1.png",
             desc: "A tech industry veteran with 26 years building and scaling enterprises across Asia, Europe, and the Middle East. Waqas aligns DaMeta1's vision with strategic goals to drive global growth.",
             href: "https://www.linkedin.com/in/waqas-suhail-80948813/"
         },
@@ -22,35 +22,35 @@ const BoardMembers = () => {
         {
             name: "Faisal Suhail",
             role: "CHIEF MARKETING OFFICER",
-            img: "/boardMembers/img3.jpg",
+            img: "/boardMembers/img3.png",
             desc: "Bringing 25+ years of global brand and agency experience, Faisal crafts tailored marketing strategies for diverse markets, ensuring DaMeta1's message resonates worldwide.",
             href: "https://www.linkedin.com/in/faisal-suhail-241b33275/"
         },
         {
             name: "Turky Almasmari",
             role: "CHIEF STRATEGY BUSINESS ACQUISITION OFFICER",
-            img: "/boardMembers/img4.jpg",
+            img: "/boardMembers/img4.png",
             desc: "With 29 years across telecom, defense, and real estate, Turky provides visionary leadership and strategic insights that drive business transformation and acquisition.",
             href: "https://www.linkedin.com/in/eng-turky-al-mesmari-70241556/"
         },
         {
             name: "Jasaira Kamal",
             role: "CHIEF GROWTH AND INVESTMENT OFFICER",
-            img: "/boardMembers/img5.jpg",
+            img: "/boardMembers/img5.png",
             desc: "With 20+ years of experience in financial services and angel investment ventures.  As Chief Growth and Investment Officer, she focuses on building strong investor relationships to drive recurrent investments and financial endorsements",
             href: "https://www.linkedin.com/in/jasaira/"
         },
         {
             name: "Tunku Fauzi Malek",
-            role: "Director of Data & Analytics",
+            role: "ADVISOR - COORDINATION & BUSINESS RELATIONSHIP",
             img: "/boardMembers/img6.png",
-            desc: "Over 20 years in tech development and BI, Marko specializes in data-driven digital transformation, leveraging advanced analytics to inform DaMeta1's strategic decisions.",
+            desc: "Experienced Director with a demonstrated history of working in the real estate industry. Skilled in Marketing Management, Negotiation, Budgeting, Business Planning, and Coaching. Strong professional with a Bachelor of Science (BSc) focused in Property Valuations and Estate Management from University of East London Cass School of Education and Communities.",
             href: "https://www.linkedin.com/in/tunku-fauzi-malek-797b392a/  "
         },
         {
             name: "Essa Al Harti ",
             role: "CHIEF PARTNERSHIP OFFICER",
-            img: "/boardMembers/img7.jpg",
+            img: "/boardMembers/img7.png",
             desc: "A collaborative leader focused on forging high-value partnerships and efficient processes that fuel DaMeta1's sustainable growth and mission fulfillment.",
             href: "#"
         }

@@ -9,8 +9,8 @@ import Link from 'next/link';
 const Footer = () => {
     return (
         <>
-            <div className="w-full bg-black h-auto lg:h-[500px] flex justify-center items-center py-10 lg:py-0">
-                <div className="w-[90%] max-w-7xl grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-12">
+            <div className="w-full bg-black flex justify-center items-center py-10">
+                <div className="w-[90%] max-w-7xl grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 items-center gap-12">
 
                     <div className="flex flex-col gap-3 items-start">
                         <Image alt="logo" src={logo} className="h-[120px] md:h-[150px] w-auto" />
@@ -19,22 +19,9 @@ const Footer = () => {
                         </p>
                     </div>
 
-                    <div className="flex flex-col items-start md:items-center text-left md:text-center">
-                        <h1 className="text-zinc-100 text-[24px] md:text-[30px] font-extrabold">VISIT US</h1>
-                        <p className="text-zinc-100 tracking-[1px] text-sm mt-2 text-[16px] exo capitalize">
-                            Office 269, Building R2, Brandium, Ateashir, Istanbul, Turkey.
-                        </p>
-                        <p className="text-zinc-100 tracking-[1px] text-sm mt-2 text-[16px] exo capitalize">
-                            VD-First floor incubator building masdar city,abu dhabi, United Arab Emirates
-                        </p>
-                        <p className="text-zinc-100 tracking-[1px] text-sm mt-2 text-[16px] exo capitalize">
-                            1900 Camden Avenue suite 101 san jose, CA 95124 
-                        </p>
-                        
-                    </div>
 
                     <div className="flex flex-col items-start lg:items-center gap-5">
-                        <h1 className="text-zinc-100 text-[20px] md:text-[23px] font-extrabold leading-[23px] text-center">
+                        <h1 className="text-zinc-100 text-[20px] md:text-[23px] font-extrabold leading-[23px] sm:text-center">
                             OUR SOCIAL <br /> MEDIA
                         </h1>
                         <div className="flex gap-3">
@@ -50,7 +37,7 @@ const Footer = () => {
                         </div>
                     </div>
 
-                    <div className="flex flex-col items-start gap-4 lg:col-span-3 xl:col-span-1">
+                    <div className="flex flex-col items-start gap-4 sm:col-span-3 lg:col-span-1">
                         <h1 className="text-zinc-100 text-[18px] md:text-[20px] font-extrabold">
                             JOIN THE JOURNEY
                         </h1>
@@ -67,6 +54,33 @@ const Footer = () => {
                                 Subscribe
                             </button>
                         </div>
+                    </div>
+
+
+                    <div className='md:col-span-3 text-white grid md:grid-cols-3 gap-10'>
+                             <h1 className="text-zinc-100 text-[18px] md:text-[20px] font-extrabold md:col-span-3 md:text-center">
+                            Visit Us
+                        </h1>
+                         <div className=''>
+                            <h6 className='text-[#7fed71] tracking-[1px] text-sm mt-2 text-[16px] exo capitalize flex gap-[6px] items-center w-full'>
+                                <Image src={'/flags/1.svg'} width={25} height={20}/>
+                                Istanbul Office</h6>
+                             <p className="text-zinc-100 tracking-[1px] text-sm mt-2 text-[16px] exo capitalize">Office 269, Building R2, Brandium,<br/> Ateashir, Istanbul, Turkey.</p>
+                         </div>
+
+                          <div className='md:text-center md:flex flex-col items-center'>
+                            <h6 className='text-[#7fed71] tracking-[1px] text-sm mt-2 text-[16px] exo capitalize flex gap-[6px] items-center mx-auto'>
+                                <Image src={'/flags/2.png'} width={25} height={20}/>
+                                Abu dhabi Office</h6>
+                             <p className="text-zinc-100 tracking-[1px] text-sm mt-2 text-[16px] exo capitalize">VD-First floor incubator<br/> building masdar city,abu dhabi, United Arab Emirates</p>
+                         </div>
+
+                          <div className='md:text-end md:flex flex-col items-end'>
+                            <h6 className='text-[#7fed71] tracking-[1px] text-sm mt-2 text-[16px] exo capitalize flex gap-[6px] items-center '>
+                                <Image src={'/flags/3.png'} width={25} height={20}/>
+                                USA Office</h6>
+                             <p className="text-zinc-100 tracking-[1px] text-sm mt-2 text-[16px] exo capitalize">1900 Camden Avenue suite 101<br/> san jose, CA 95124</p>
+                         </div>
                     </div>
 
                 </div>
